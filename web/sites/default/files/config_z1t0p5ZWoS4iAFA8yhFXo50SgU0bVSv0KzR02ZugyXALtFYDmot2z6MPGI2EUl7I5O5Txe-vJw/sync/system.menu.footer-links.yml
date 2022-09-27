@@ -1,0 +1,8 @@
+uuid: 287cd891-3433-4be7-89aa-28d6d8219e7c
+langcode: en
+status: true
+dependencies: {  }
+id: footer-links
+label: 'Customer Service'
+description: 'Provides administrators and reviewers to view footer menus'
+locked: false

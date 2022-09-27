@@ -1,7 +1,7 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 45a760f2-824e-49c9-8971-6219bbd67572
+uuid: 0a8bb157-85c6-4e70-8efe-81c99ad0055e
 name: Drupaltest
 mail: admin@wampserver.invalid
 slogan: ''

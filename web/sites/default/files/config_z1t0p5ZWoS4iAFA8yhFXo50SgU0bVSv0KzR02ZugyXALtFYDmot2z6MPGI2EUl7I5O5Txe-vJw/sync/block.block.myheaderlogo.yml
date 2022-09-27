@@ -1,9 +1,9 @@
-uuid: eff8a5ee-b208-486f-865c-e8607dacfb31
+uuid: 2a53d681-7029-4c79-b109-c8d5eb9f1136
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:5527ba63-3611-4ac2-b33c-ab67e5b877c9'
+    - 'block_content:basic:da770535-337b-42bc-87f9-96acbb0bf91e'
   module:
     - block_content
   theme:
@@ -13,9 +13,9 @@ theme: olivero
 region: primary_menu
 weight: 0
 provider: null
-plugin: 'block_content:5527ba63-3611-4ac2-b33c-ab67e5b877c9'
+plugin: 'block_content:da770535-337b-42bc-87f9-96acbb0bf91e'
 settings:
-  id: 'block_content:5527ba63-3611-4ac2-b33c-ab67e5b877c9'
+  id: 'block_content:da770535-337b-42bc-87f9-96acbb0bf91e'
   label: 'My Header Logo'
   label_display: '0'
   provider: block_content
