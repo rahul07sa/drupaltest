@@ -1,0 +1,34 @@
+<?php
+
+use Drupal\block\Entity\Block;
+
+/**
+ * Implements hook_install().
+ */
+function drupalup_block_install() {
+    // My header logo block entity managerfrom EntityManager service
+    $blockEntityManager = \Drupal::service('entity.manager')
+    ->getStorage('block_content');
+    
+    // Create a bock type 'basic'
+    $block = $blockEntityManager-> create(array(
+        'type' => 'basic'
+    ));
+   
+    // Block info.
+    $block->info = 'My Header Logo';
+
+    // Block UUID.
+    $block->uuid = 'a382194e-2f2d-4660-9c26-c030891e997d';
+
+    // Block machine name.
+    $block->machine_name = 'myheaderlogo';
+
+    // Block Content
+    $block->body->value = 'Welcome to my site';
+
+    // Block input format.
+    $block->body->format = 'basic_html';
+
+    $block->save();
+}
