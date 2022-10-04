@@ -1,0 +1,22 @@
+uuid: 005c9746-6fdc-4baa-ba07-99b136eb90c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupalup_block
+  theme:
+    - olivero
+_core:
+  default_config_hash: nWP18eZZPGRkzwwH--x7kY6PLsEUHG7OOxULoj7BpN4
+id: drupalupblock
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: drupalup_block
+settings:
+  id: drupalup_block
+  label: 'Drupalup block'
+  label_display: visible
+  provider: drupalup_block
+visibility: {  }

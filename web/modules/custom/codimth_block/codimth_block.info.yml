@@ -1,0 +1,7 @@
+name: CodimTh Block
+description: Create a custom block module
+package: CodimTh
+type: module
+core_version_requirement: ^8 || ^9
+dependencies:
+  - block
