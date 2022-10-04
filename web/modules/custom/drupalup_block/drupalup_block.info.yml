@@ -1,7 +1,0 @@
-name: Drupal Up Block
-description: Building a simple block module
-type: module
-core_version_requirement: ^8 || ^9
-package: custom
-dependencies:
-  - drupal:block
