@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_example
+  theme:
+    - olivero
+id: simpletexturlblock
+theme: olivero
+region: primary_menu
+weight: 0
+provider: null
+plugin: simple_example_block
+settings:
+  id: simple_example_block
+  label: 'Simple Text URL Block'
+  label_display: '0'
+  provider: block_example
+visibility: {  }

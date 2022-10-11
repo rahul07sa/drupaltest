@@ -1,0 +1,7 @@
+name: Block Example
+description: 'A simple drupal block with url and text.'
+type: module
+package: custom
+core_version_requirement: ^8 || ^9
+dependencies: 
+  - drupal:block
