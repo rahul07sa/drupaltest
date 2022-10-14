@@ -1,0 +1,22 @@
+uuid: 9fdcbac3-5718-4b6f-a727-7b54d6dc979b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_example
+  theme:
+    - olivero
+_core:
+  default_config_hash: PlDgAI0tsPlAY6pHplvv-rk0v6p5t65qmxg0M36G7zs
+id: simplelogourlblock
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: simple_logo_block
+settings:
+  id: simple_logo_block
+  label: 'Simple Logo URL Block'
+  label_display: visible
+  provider: block_example
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: b6a349db-39b3-46a4-a63b-2193c749e46d
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_example
+  theme:
+    - olivero
+_core:
+  default_config_hash: ygxoZt3XUI4lXxicj-CBWme4jTlICBL_AS5W8wmzzns
+id: simpletexturlblock
+theme: olivero
+region: primary_menu
+weight: 0
+provider: null
+plugin: simple_example_block
+settings:
+  id: simple_example_block
+  label: 'Simple Text URL Block'
+  label_display: '0'
+  provider: block_example
+visibility: {  }
