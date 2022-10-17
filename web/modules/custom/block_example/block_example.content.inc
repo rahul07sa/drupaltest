@@ -24,6 +24,7 @@ function block_example_create_logo_url_block_content() {
   // Create footer logo block content.
   $block_content = BlockContent::create([
     'info' => 'Simple Logo URL Block',
+    'uuid' => '047dda99-9dbe-4b92-9214-b53423635891',
     'machine_name' => 'simple_logo_block',
     'body' => [
       'value' => "<div> 
@@ -32,7 +33,7 @@ function block_example_create_logo_url_block_content() {
                   </a>
                   <p>Welcome to my site.</p>
                   </div>",
-      'format' => 'rich_text',
+      'format' => 'full_html',
     ],
     'type' => 'basic',
     'langcode' => 'en',

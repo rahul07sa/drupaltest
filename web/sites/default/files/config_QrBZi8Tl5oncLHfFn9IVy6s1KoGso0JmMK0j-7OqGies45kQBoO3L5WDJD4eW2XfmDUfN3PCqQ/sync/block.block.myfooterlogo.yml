@@ -1,0 +1,25 @@
+uuid: 2942d002-38a3-4b2d-b241-085a919e50b7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:39a2c27e-5860-469f-9e4b-941df3406afe'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: myfooterlogo
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:39a2c27e-5860-469f-9e4b-941df3406afe'
+settings:
+  id: 'block_content:39a2c27e-5860-469f-9e4b-941df3406afe'
+  label: 'My footer logo'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
