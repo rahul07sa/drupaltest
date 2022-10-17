@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_example
+  theme:
+    - olivero
+id: simplelogourlblock
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: simple_logo_block
+settings:
+  id: simple_logo_block
+  label: 'Simple Logo URL Block'
+  label_display: visible
+  provider: block_example
+visibility: {  }
