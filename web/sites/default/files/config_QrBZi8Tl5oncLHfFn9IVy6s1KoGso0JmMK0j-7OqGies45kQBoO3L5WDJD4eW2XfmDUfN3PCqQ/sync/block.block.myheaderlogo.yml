@@ -1,0 +1,25 @@
+uuid: 6c7816b0-06aa-4983-9539-2f5bdf419a21
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:047dda99-9dbe-4b92-9214-b53423635889'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: myheaderlogo
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:047dda99-9dbe-4b92-9214-b53423635889'
+settings:
+  id: 'block_content:047dda99-9dbe-4b92-9214-b53423635889'
+  label: 'My Header logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
