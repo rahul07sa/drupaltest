@@ -1,22 +1,27 @@
-uuid: 9fdcbac3-5718-4b6f-a727-7b54d6dc979b
+uuid: b1a4c8ed-4195-4419-86ed-5fceca1024cf
 langcode: en
 status: true
 dependencies:
+  content:
+    - 'block_content:basic:047dda99-9dbe-4b92-9214-b53423635891'
   module:
-    - block_example
+    - block_content
   theme:
     - olivero
 _core:
-  default_config_hash: PlDgAI0tsPlAY6pHplvv-rk0v6p5t65qmxg0M36G7zs
+  default_config_hash: s7_e_NQrPRX3fXZZX7VbGH6RNyysuKppLjcwlZEUXmE
 id: simplelogourlblock
 theme: olivero
 region: footer_top
 weight: 0
 provider: null
-plugin: simple_logo_block
+plugin: 'block_content:047dda99-9dbe-4b92-9214-b53423635891'
 settings:
-  id: simple_logo_block
+  id: 'block_content:047dda99-9dbe-4b92-9214-b53423635891'
   label: 'Simple Logo URL Block'
-  label_display: visible
-  provider: block_example
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
 visibility: {  }

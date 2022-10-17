@@ -33,5 +33,5 @@ public function build () {
                       <p>Welcome to my site.</p>
                       </div>',
            ];
-  }
+   }
  }
